@@ -14,4 +14,5 @@
 
 ## 試用
 
-部署後補上
+<https://lottery.shuochen.me/log-lottery/>
+
