@@ -90,7 +90,7 @@ function skip(path: string) {
     </nav>
     <aside>
       <a class="p-0 m-0 hover:text-primary" href="https://beian.miit.gov.cn/" target="_blank">
-        蜀ICP备2021028666号
+        蜀ICP備2021028666號
       </a>
       <p>Copyright © {{ currentYear }} - All right reserved by <a class="link link-primary" href="https://github.com/LOG1997" target="_blank">log1997</a></p>
     </aside>

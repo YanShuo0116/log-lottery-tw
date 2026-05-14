@@ -12,19 +12,19 @@ export const sidebarEn = {
 }
 
 export const sidebarZhCn = {
-    personConfiguration: '人员配置',
-    personList: '人员列表',
-    winnerList: '中奖人员',
-    prizeConfiguration: '奖品配置',
+    personConfiguration: '人員配置',
+    personList: '人員列表',
+    winnerList: '中獎人員',
+    prizeConfiguration: '獎品配置',
     globalSetting: '全局配置',
-    viewSetting: '界面设置',
-    imagesManagement: '图片管理',
-    musicManagement: '音乐管理',
-    operatingInstructions: '操作说明',
-    server: '服务器',
+    viewSetting: '界面設置',
+    imagesManagement: '圖片管理',
+    musicManagement: '音樂管理',
+    operatingInstructions: '操作說明',
+    server: '服務器',
 }
 
 export const sidebar = {
     en: sidebarEn,
-    zhCn: sidebarZhCn,
+    zhTw: sidebarZhCn,
 }

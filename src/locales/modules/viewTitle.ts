@@ -7,14 +7,14 @@ export const viewTitleEn = {
 }
 
 export const viewTitleZhCn = {
-    personManagement: '人员管理',
-    winnerManagement: '已中奖人员管理',
-    prizeManagement: '奖项配置',
+    personManagement: '人員管理',
+    winnerManagement: '已中獎人員管理',
+    prizeManagement: '獎項配置',
     globalSetting: '全局配置',
-    operatingInstructions: '操作说明',
+    operatingInstructions: '操作說明',
 }
 
 export const viewTitle = {
     en: viewTitleEn,
-    zhCn: viewTitleZhCn,
+    zhTw: viewTitleZhCn,
 }

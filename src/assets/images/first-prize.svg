@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="firstPrizeTitle">
+  <title id="firstPrizeTitle">First Prize Medal</title>
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff6bf" />
+      <stop offset="45%" stop-color="#f6c945" />
+      <stop offset="100%" stop-color="#c98910" />
+    </linearGradient>
+    <linearGradient id="ribbonLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#b91c1c" />
+    </linearGradient>
+    <linearGradient id="ribbonRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+  </defs>
+  <path d="M30 8h24l8 34H40z" fill="url(#ribbonLeft)" />
+  <path d="M74 8h24l-10 34H66z" fill="url(#ribbonRight)" />
+  <circle cx="64" cy="76" r="38" fill="url(#gold)" />
+  <circle cx="64" cy="76" r="31" fill="none" stroke="#fff4c7" stroke-width="4" />
+  <path d="M64 52l7.6 15.4 17 2.5-12.3 12 2.9 16.9L64 90.7 48.8 98.8l2.9-16.9-12.3-12 17-2.5z" fill="#fff8dc" />
+</svg>

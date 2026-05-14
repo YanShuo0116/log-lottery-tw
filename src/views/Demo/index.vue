@@ -13,7 +13,7 @@ const wsQuery = ref<{ userSignature: string }>({
 function connectUserMsg() {
     api_sendMsg(wsQuery.value.userSignature, `hello world ${wsQuery.value.userSignature}`).then((res: any) => {
         toast.open({
-            message: res.msg || '发送成功',
+            message: res.msg || '發送成功',
             type: 'success',
             position: 'top-right',
         })
