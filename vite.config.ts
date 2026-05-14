@@ -22,8 +22,9 @@ const process = require('node:process')
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, __dirname)
     const chunkName = mode === 'prebuild' ? '[name]' : 'chunk'
+    const base = env.VITE_BASE_PATH || ((mode === 'file' || process.env.TAURI_ENV_PLATFORM) ? './' : '/')
     return {
-        base: (mode === 'file' || process.env.TAURI_ENV_PLATFORM) ? './' : '/log-lottery/',
+        base,
         plugins: [
             vue(),
             tailwindcss(),
